@@ -6,10 +6,10 @@ from typing import List, Union
 """
 
 
-from typing import List
+from typing import List, Union
 
 
-def sum_list(input_list: List[float]) -> float:
-    """Computes the sum of a list of floating-point numbers.
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """Compute sum of a list of integers and floating-point numbers.
     """
-    return float(sum(input_list))
+    return float(sum(mxd_lst))
