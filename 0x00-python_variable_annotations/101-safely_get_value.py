@@ -10,9 +10,9 @@ def safely_get_value(dct, key, default = None):
         return dct[key]
     else:
         return default
+"""
 from typing import TypeVar, Mapping, Any, Union
 T = TypeVar('T')
-"""
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Union[T, None]
