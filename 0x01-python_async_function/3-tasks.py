@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 #!/usr/bin/env python3
 """
 Write a function (do not create an async function, use the regular
