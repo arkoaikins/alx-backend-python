@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Coroutine called async_generator that takes no arguments.
 The coroutine will loop 10 times, each time asynchronously
