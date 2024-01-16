@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Import async_comprehension from the previous file and write a
 measure_runtime coroutine that will execute async_comprehension
